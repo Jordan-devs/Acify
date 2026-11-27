@@ -1,0 +1,12 @@
+{
+  "name": "actify",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "migrate": "npm --prefix server run migrate",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start"
+  }
+}
